@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     height: 300px;
     width: 400px;
+    border: red;
 }
 
 body{
@@ -13,4 +14,5 @@ header {
     font-family: 'Noto Sans SC', sans-serif;
     font-weight: bold;
     color: red;
+    text-align: center;
 }

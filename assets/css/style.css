@@ -4,3 +4,13 @@
     height: 300px;
     width: 400px;
 }
+
+body{
+    background-image: url('../assets/images/background-bamboo-surface-mat.jpg');
+}
+
+header {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: bold;
+    color: red;
+}

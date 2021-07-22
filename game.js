@@ -1,5 +1,7 @@
 const cards = document.querySelectorAll('.memory-card');
 
+var score = 0;
+
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
@@ -42,7 +44,7 @@ function unflipCards() {
     secondCard.classList.remove('flip');
 
     resetBoard();
-  }, 1500);
+  }, 1000);
 }
 
 function resetBoard() {
@@ -58,3 +60,4 @@ function resetBoard() {
 })();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
+

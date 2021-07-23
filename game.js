@@ -4,6 +4,7 @@ const cards = document.querySelectorAll('.memory-card');
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
+let matchCounter=0;
 
 function flipCard() {
   if (lockBoard) return;
@@ -26,15 +27,22 @@ function flipCard() {
 
 function checkForMatch() {
     let isMatch = firstCard.dataset.cards === secondCard.dataset.cards;
-
-  isMatch ? disableCards() : unflipCards();
+    if(isMatch){
+      matchCounter+=1;
+     disableCards();
+       if(matchCounter==(cards.length/2)){
+            window.alert("Congratulations! You Won!");
+        }
+     }
+     else{ unflipCards(); }
 }
 
 
 function disableCards() {
   firstCard.removeEventListener('click', flipCard);
   secondCard.removeEventListener('click', flipCard);
-    resetBoard();
+  
+  resetBoard();
 }
 
 function unflipCards() {
@@ -62,7 +70,3 @@ function resetBoard() {
 })();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
-
-function playAgain() {
-  location.reload();
-}

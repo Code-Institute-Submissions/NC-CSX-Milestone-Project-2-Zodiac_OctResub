@@ -1,102 +1,72 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Chinese Zodiac Matching Card Game
 
-Welcome NC-CSX,
+This is a simple card matching game based on the Chinese Zodiac. It is themed around Chinese New Year.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+## User Experience
+* Explicit User Goals:
 
-## Gitpod Reminders
+* The aim is for the user to enjoy playing the game. There is no timer and there is a congratulatory message when the game is won.
+* Know some of the Chinese Zodiac animals
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Implicit User Goals:
+* Gain some knowledge about a Chinese New Year tradition, red envelopes and the associated character.
+* 
+### Wireframes
 
-`python3 -m http.server`
+TBA
 
-A blue button should appear to click: _Make Public_,
+## Technologies used
+#### Languages used
+1. [HTML 5](https://html.spec.whatwg.org/multipage/)
+2. [CSS 3](https://www.w3.org/Style/CSS/Overview.en.html)
+3. [Javascript](https://www.javascript.com/)
 
-Another blue button should appear to click: _Open Browser_.
+#### Frameworks, Programs and Libraries used
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+1. [Google Fonts](https://fonts.google.com/) 
+Used this to import the Noto Sans SC Font throughout the site.
 
-A blue button should appear to click: _Make Public_,
+2. [Bootstrap 4.4.1](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+Used to aid responsiveness of the site.
 
-Another blue button should appear to click: _Open Browser_.
+3. [Gitpod](https://www.gitpod.io/) Used Gitpod for version control.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+4. [Github](https://github.com/) used to deploy the finished site.
 
-To log into the Heroku toolbelt CLI:
+5. [Balsamiq](https://balsamiq.com/) Used Balsamiq to create the wireframes.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+6. [Remove BG](https://www.remove.bg/) Used to remove the Background of my images.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Testing
+* The code was inputted through the W3C CSS Validation Service and  Markup Validation Service and no errors were found. 
+* Lighthouse report was created and changes implemented.
+* The website was tested on Google Chrome, Edge and  Firefox using the deployed link.
+* The website was also tested on Samsung Tab S7, Sony XZ Premium . 
+* Friends and family tested the deployed link on their phones and provided feedback. The site was found to be responsive on all platforms tested.
+* Known Bugs: 
 
-------
+#### Screenshots
 
-## Release History
+* TBA
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### LightHouse reports
+* TBA
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Deployment
+The project was deployed to GitHub Pages using the following steps...
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+1. Log in to GitHub and go to the GitHub Repository.
+2. Open Settings.
+3. Scroll down the Settings page until you find "Pages".
+4. Under "Source", click on the the drop-down called "None" and select " Branch".
+5. Find the now published site link in the "GitHub Pages" section.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* The Link to the project is -(https://nc-csx.github.io/Milestone-Project-2-Zodiac/)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Credits and Acknowledgments 
+1. All images except the Monkey King were downloaded from [FreePik](https://www.freepik.com/home). Please see below for licence attribution
+ * 
+ 2. Monkey king image came from [pixabay.com](https://pixabay.com/vectors/monkey-king-cloud-flying-baby-1940533/)
+* The Structure of the Javascript was based on Marina Ferreira's Javascript memory game (https://marina-ferreira.github.io/projects/js/memory-game)
+* Stack Overflow was used to help write the Javascript function for when the game is ended. I found the answer through a question. The Link is here: https://stackoverflow.com/questions/54171904/javascript-memory-game-need-to-add-congrats-message-at-the-end-of-game
+3. I would also like to thank my Mentor, Chris Quinn for his advice and help.

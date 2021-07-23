@@ -1,6 +1,5 @@
 const cards = document.querySelectorAll('.memory-card');
 
-var score = 0;
 
 let hasFlippedCard = false;
 let lockBoard = false;
@@ -21,6 +20,8 @@ function flipCard() {
 
   secondCard = this;
   checkForMatch();
+
+  
 }
 
 function checkForMatch() {
@@ -28,6 +29,7 @@ function checkForMatch() {
 
   isMatch ? disableCards() : unflipCards();
 }
+
 
 function disableCards() {
   firstCard.removeEventListener('click', flipCard);
@@ -52,6 +54,7 @@ function resetBoard() {
   [firstCard, secondCard] = [null, null];
 }
 
+
 (function shuffle() {
   cards.forEach(card => {
     let randomPos = Math.floor(Math.random() * 12);
@@ -61,3 +64,6 @@ function resetBoard() {
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 
+function playAgain() {
+  location.reload();
+}

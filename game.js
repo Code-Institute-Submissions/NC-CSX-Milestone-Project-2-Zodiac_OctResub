@@ -31,7 +31,7 @@ function checkForMatch() {
       matchCounter+=1;
      disableCards();
        if(matchCounter==(cards.length/2)){
-            window.alert("Congratulations! You Won!");
+            window.alert("Congratulations! You have freed the trapped Zodiac animals!");
         }
      }
      else{ unflipCards(); }

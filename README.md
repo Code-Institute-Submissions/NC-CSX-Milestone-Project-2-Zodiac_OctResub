@@ -1,6 +1,6 @@
 # Chinese Zodiac Matching Card Game
 
-This is a simple card matching game based on the Chinese Zodiac. It is themed around Chinese New Year an also incorporates the Monkey King from Journey to the West
+This is a simple card matching game based on the Chinese Zodiac. It is themed around Chinese New Year an also incorporates the Monkey King from Journey to the West.
 
 ## User Experience
 * Explicit User Goals:
@@ -13,8 +13,12 @@ Implicit User Goals:
 * 
 ### Wireframes
 
-TBA
-
+* [Desktop Main Page]()
+* [Desktop Game Page]()
+* [Ipad Main Page]()
+* [Ipad Game Page]()
+* [Smartphone Main Page]()
+* [Smartphone Game Page]()
 ## Technologies used
 #### Languages used
 1. [HTML 5](https://html.spec.whatwg.org/multipage/)

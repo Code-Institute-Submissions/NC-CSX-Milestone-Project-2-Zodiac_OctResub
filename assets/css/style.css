@@ -63,13 +63,14 @@
     transform: rotateY(180deg);
   }
 
-  button {
+  .btn {
     font-family: 'Noto Sans SC', sans-serif;
     font-weight: bold;
     color: yellow;
     text-align: center;
     margin-top: 20%;
     text-align: center;
+    border: 2px solid yellow;
   }
   
   .monkeyking {
@@ -79,15 +80,5 @@
     color: yellow;
     text-align: center;
     margin-top: 20%;
-    border-style: dashed;}
-
-        .btn {
-        border: 2px solid yellow;
-        color: yellow;
-      }
-
-        #playAgain {
-          border: 2px solid #2580b3;
-          border-radius: 5px;
-          background: #2580b3;
-        }
+    border-style: dashed;
+  }

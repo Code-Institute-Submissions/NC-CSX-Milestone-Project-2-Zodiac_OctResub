@@ -29,23 +29,23 @@ function checkForMatch() {
     let isMatch = firstCard.dataset.cards === secondCard.dataset.cards;
     if(isMatch){
       matchCounter+=1;
-     disableCards();
+     cardsMatched();
        if(matchCounter==(cards.length/2)){
             window.alert("Congratulations! You have freed the trapped Zodiac animals!");
         }
      }
-     else{ unflipCards(); }
+     else{ cardsNotMatched(); }
 }
 
 
-function disableCards() {
+function cardsMatched() {
   firstCard.removeEventListener('click', flipCard);
   secondCard.removeEventListener('click', flipCard);
   
   resetBoard();
 }
 
-function unflipCards() {
+function cardsNotMatched() {
   lockBoard = true;
 
   setTimeout(() => {

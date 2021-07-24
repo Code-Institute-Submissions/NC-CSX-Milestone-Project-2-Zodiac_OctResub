@@ -9,7 +9,7 @@
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: absolute;
+    background-attachment: fixed;
   }
   
   h1 {

@@ -1,6 +1,6 @@
 # Chinese Zodiac Matching Card Game
 
-This is a simple card matching game based on the Chinese Zodiac. It is themed around Chinese New Year.
+This is a simple card matching game based on the Chinese Zodiac. It is themed around Chinese New Year an also incorporates the Monkey King from Journey to the West
 
 ## User Experience
 * Explicit User Goals:
@@ -38,7 +38,7 @@ Used to aid responsiveness of the site.
 6. [Remove BG](https://www.remove.bg/) Used to remove the Background of my images.
 
 ## Testing
-* The code was inputted through the W3C CSS Validation Service and  Markup Validation Service and no errors were found. 
+* The code was inputted through the W3C CSS Validation Service and Markup Validation Service and no errors were found. 
 * Lighthouse report was created and changes implemented.
 * The website was tested on Google Chrome, Edge and  Firefox using the deployed link.
 * The website was also tested on Samsung Tab S7, Sony XZ Premium . 

@@ -6,10 +6,17 @@ This is a simple card matching memory game based on the Chinese Zodiac. It is th
 * Explicit User Goals:
 
 * The aim is for the user to enjoy playing the game. There is no timer and there is a congratulatory message when the game is won.
-* Know some of the Chinese Zodiac animals
+* Know half of the Chinese Zodiac animals. There are 12 animals in total but this would make the board look unwiedly at the moment. It is better to start with 6 animals as it is easier to look at.
 
-Implicit User Goals:
-* Gain some knowledge about a Chinese New Year tradition, red envelopes and the associated character.
+* Implicit User Goals:
+
+* Gain some knowledge about a Chinese New Year tradition, red envelopes and the associated characters.
+
+* Features to implement
+1. I would make the game more difficult by adding lives, a timer and a move counter.
+2. After matching all the Zodiac characters the next part of the game will be matching Chinese Characters with the animals. For example the dragon image will have to be matched with the Chinese Character 龙. This enables the user to learn the characters for the anmials. It would be diffciult for them to understand the Chinese romanisation for the animals at this stage.
+3. After that to make it more interesting you would have to match the negative image and the image of the animals. The reason behind this is that the Monkey King has taken their soul and they need to reunite it by matching the cards.
+4. The final level would be in two parts with all the 12 Zodiac animals. The first part would be to match the negative image and image. The second part would be to match the image and character. At this stage at timer would be added to make the game more exciting.
 
 ### Wireframes
 

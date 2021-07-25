@@ -20,11 +20,12 @@
     margin-top: 20%;
     }  
   .memory-game {
-    width: 640spx;
+    width: initial;
     height: 640px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    position: static;
     perspective: 1000px;
   }
   

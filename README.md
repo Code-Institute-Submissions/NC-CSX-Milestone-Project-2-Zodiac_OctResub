@@ -78,9 +78,10 @@ The project was deployed to GitHub Pages using the following steps...
 * The Link to the project is -(https://nc-csx.github.io/Milestone-Project-2-Zodiac/)
 
 ### Credits and Acknowledgments 
-1. All images except the Monkey King were downloaded from [FreePik](https://www.freepik.com/home). Please see below for licence attribution
- * 
- 2. Monkey king image came from [pixabay.com](https://pixabay.com/vectors/monkey-king-cloud-flying-baby-1940533/)
+1. All images except the Monkey King and the red envelope were downloaded from [FreePik](https://www.freepik.com/home). Please see below for licence attribution
+ * Chinese Zodiac [Freepik](https://www.freepik.com/free-vector/chinese-zodiac-new-year-signs-traditional-china-horoscope-animals-red-zodiacs-silhouette_10722644.htm#page=1&query=chinese%20zodiac&position=0)  
+ 2. Red evenlope came from [Flaticon](https://www.flaticon.com/free-icon/envelope_677721)
+ 3. Monkey king image came from [pixabay.com](https://pixabay.com/vectors/monkey-king-cloud-flying-baby-1940533/)
 * The Structure of the Javascript was based on Marina Ferreira's Javascript memory game (https://marina-ferreira.github.io/projects/js/memory-game)
 * Stack Overflow was used to help write the Javascript function for when the game is ended. I found the answer through a question. The Link is here: https://stackoverflow.com/questions/54171904/javascript-memory-game-need-to-add-congrats-message-at-the-end-of-game
-3. I would also like to thank my Mentor, Chris Quinn for his advice and help.
+4. I would also like to thank my Mentor, Chris Quinn for his advice and help.

@@ -15,11 +15,12 @@
   .memory-game {
     width: initial;
     height: 500px;
-    margin: auto;
+    margin-top: 5rem;
     display: flex;
     flex-wrap: wrap;
     position: relative;
     perspective: 1000px;
+    margin-bottom: 2rem;
   }
   
   .memory-card {
@@ -75,4 +76,28 @@
     color: yellow;
     text-align: center;
     margin-top: 80px;
+  }
+
+  @media (min-width: 576px) {
+    .memory-game{ 
+    margin-top: 7rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .memory-game{ 
+    margin-top: 9rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .memory-game{ 
+    margin-top: 5rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .memory-game{ 
+    margin-top: 8rem;
+    }
   }
